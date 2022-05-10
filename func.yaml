@@ -1,13 +1,13 @@
-version: 0.0.0
-name: test-functions
+version: 0.19.0
+name: test-func
 namespace: ""
 runtime: go
 registry: ""
-image: ""
+image: quay.io/jrangelramos/test-func:latest
 imageDigest: ""
 build: git
 git:
-  url: https://github.com/jrangelramos/test-functions.git
+  url: https://github.com/jrangelramos/test-func.git
   revision: main
 builder: ""
 builders: {}
