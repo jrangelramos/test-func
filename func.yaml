@@ -3,7 +3,7 @@ name: test-func
 namespace: ""
 runtime: quarkus
 registry: ""
-image: ""
+image: quay.io/jrangelramos/test-func:latest
 imageDigest: ""
 build: git
 git:
