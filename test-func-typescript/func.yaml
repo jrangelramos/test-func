@@ -1,0 +1,26 @@
+version: 0.0.0
+name: test-func-typescript
+namespace: ""
+runtime: typescript
+registry: ""
+image: ""
+imageDigest: ""
+build: local
+git: {}
+builder: ""
+builders: {}
+buildpacks: []
+volumes: []
+buildEnvs:
+- name: BP_NODE_RUN_SCRIPTS
+  value: build
+envs: []
+annotations: {}
+options: {}
+labels: []
+healthEndpoints:
+  liveness: /health/liveness
+  readiness: /health/readiness
+created: 2022-06-13T10:49:20.779188832-03:00
+invocation:
+  format: http

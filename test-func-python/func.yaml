@@ -1,0 +1,24 @@
+version: 0.0.0
+name: test-func-python
+namespace: ""
+runtime: python
+registry: ""
+image: ""
+imageDigest: ""
+build: local
+git: {}
+builder: ""
+builders: {}
+buildpacks: []
+volumes: []
+buildEnvs: []
+envs: []
+annotations: {}
+options: {}
+labels: []
+healthEndpoints:
+  liveness: /health/liveness
+  readiness: /health/readiness
+created: 2022-06-13T10:48:56.399730148-03:00
+invocation:
+  format: http
