@@ -5,8 +5,10 @@ runtime: typescript
 registry: ""
 image: ""
 imageDigest: ""
-build: local
-git: {}
+build: git
+git:
+  url: http://github.com/jrangelramos/test-func
+  contextDir: test-func-typescript
 builder: ""
 builders: {}
 buildpacks: []
