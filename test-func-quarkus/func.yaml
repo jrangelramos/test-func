@@ -5,7 +5,6 @@ runtime: quarkus
 registry: ""
 image: ""
 imageDigest: ""
-build: local
 build: git
 git:
   url: http://github.com/jrangelramos/test-func
