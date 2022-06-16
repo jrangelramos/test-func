@@ -1,16 +1,14 @@
-version: 0.0.0
+version: 0.23.0
 name: test-func-springboot
 namespace: ""
 runtime: springboot
 registry: ""
-image: ""
+image: image-registry.openshift-image-registry.svc:5000/default/test-func-springboot:latest
 imageDigest: ""
 build: git
 git:
   url: http://github.com/jrangelramos/test-func
   contextDir: test-func-springboot
-builder: ""
-builders: {}
 buildpacks: []
 volumes: []
 buildEnvs:

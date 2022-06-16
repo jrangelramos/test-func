@@ -1,16 +1,14 @@
-version: 0.0.0
+version: 0.23.0
 name: test-func-go
 namespace: ""
 runtime: go
 registry: ""
-image: ""
+image: image-registry.openshift-image-registry.svc:5000/default/test-func-go:latest
 imageDigest: ""
 build: git
 git:
   url: http://github.com/jrangelramos/test-func
   contextDir: test-func-go
-builder: ""
-builders: {}
 buildpacks: []
 volumes: []
 buildEnvs: []
