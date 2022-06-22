@@ -1,0 +1,26 @@
+version: 0.0.0
+name: local-node
+namespace: ""
+runtime: node
+registry: ""
+image: ""
+imageDigest: ""
+build: git
+git:
+  url: http://github.com/jrangelramos/test-func
+  contextDir: local-node
+builder: ""
+builders: {}
+buildpacks: []
+volumes: []
+buildEnvs: []
+envs: []
+annotations: {}
+options: {}
+labels: []
+healthEndpoints:
+  liveness: /health/liveness
+  readiness: /health/readiness
+created: 2022-06-22T09:04:06.835764508-03:00
+invocation:
+  format: http
